@@ -1,0 +1,403 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+  width: 0.35rem;
+}
+
+body::-webkit-scrollbar-track{
+  background: rgb(41, 92, 116);
+}
+
+body::-webkit-scrollbar-thumb{
+  background: wheat;
+}
+
+.how-section1{
+  margin-top:-15%;
+  padding: 10%;
+}
+.how-section1 h4{
+  color: #ffa500;
+  font-weight: bold;
+  font-size: 30px;
+}
+.how-section1 .subheading{
+  color: #3931af;
+  font-size: 20px;
+}
+.how-section1 .row
+{
+  margin-top: 10%;
+}
+.how-img 
+{
+  text-align: center;
+}
+.how-img img{
+  width: 40%;
+}
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #6b6b6b;
+  overflow-x: hidden;
+  margin:0px;
+}
+
+
+.home-main{
+  background: rgb(88,18,197);
+  background: linear-gradient(90deg, #823A9C 100%, rgb(190, 190, 190) 10%, rgba(88,18,197,1) 60%);
+  color:#fff;
+  padding: 13%;
+  text-align: center;
+}
+.blinker{
+  animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+  50% {
+  opacity: 0;
+  }
+}
+
+.home-main button{
+  background: #fff;
+  color: #5812c5;
+  border-radius: 0;
+  font-weight: 700;
+  width: 16%;
+  height: 50px;
+  top: 4%;
+  margin-top: 3%;
+}
+.home-main button:hover{
+  transition: 1s ease;
+  color:#5812c5;
+  width: 19%;
+}
+.content1-left{
+  padding:9%;
+}
+.content1-right{
+  padding:9%;
+  background:#e4e4e4;
+}
+.home-content2{
+  background: #adb5bd;
+  padding: 1.4%;
+  text-align: center;	
+}
+.home-content2 p{
+  font-size: 18px;
+  line-height: 50px;
+}
+.home-content2 p span{
+  font-weight: 500;
+}
+
+.me {
+  display: block;
+  margin: 2em auto;
+  margin-bottom: 3em;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.social {
+  text-align: center;
+  font-size: 2.5em;
+  color: #555;
+  overflow: hidden;
+}
+.social a {
+  color: inherit;
+  text-decoration: none;
+}
+.social i {
+  margin: .3em;
+  cursor: pointer;
+  transition: color 300ms ease, margin-top 300ms ease;
+  transform: translateZ(0);
+}
+.social i:hover {
+  margin-top: -1px;
+}
+.social i#github:hover {
+  color: black;
+}
+.social i#linkedin:hover {
+  color: #0177B5;
+}
+.social i#mail:hover {
+  color: #12b0b6;
+}
+img {
+  filter: white; 
+  -webkit-filter: none;
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom:20px;
+}
+
+img:hover {
+  filter: gray; 
+  -webkit-filter: grayscale(50); 
+}
+
+div#experience {
+  float: left;
+  width: 100%;
+  padding: 30px 0px;
+}
+
+.work {
+  background: #000;
+}
+
+.work-left {
+  text-align: right;
+  padding: 4em 5em 0 0;
+}
+
+.work-right {
+  border-left: 4px solid #ebebec;
+  padding: 4em 0 2em 6em;
+}
+
+.work-info h4 {
+  font-size: 1.2em;
+  display: inline-block;
+  padding: .4em 1.2em;
+  color: #fff;
+  position: relative;
+  background: #1b1b1b;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  box-shadow: 0 8px 18px 0 rgba(0, 0, 0, 0.2), 0 4px 7px 0 rgba(0, 0, 0, 0.19);
+}
+
+.work-info h4:before {
+  width: 0;
+  height: 0;
+  position: absolute;
+  content: '';
+  top: 9px;
+  right: -10px;
+  border-style: solid;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #1b1b1b;
+}
+
+.work-info h5 {
+  font-size: 1.0em;
+  color: #00a98f;
+  text-transform: uppercase;
+  margin-bottom: .5em;
+  display: inline-block;
+  padding: 0 1.2em;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0px rgba(74, 76, 76, 0.09);
+  font-weight: 700;
+}
+
+.work-info h5 span.fa {
+  font-size: 1.0em;
+  color: #ffffff;
+  background: #5b3859;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  transition: .5s all;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  line-height: 29px;
+}
+h3{
+     font-family: 'Courgette', cursive !important;
+}
+
+.work-right h5 span.fa {
+  margin-right: 3.5em;
+  margin-left: -7.3em;
+}
+
+.work-left2 h5 span.fa {
+  margin-left: 3em;
+  margin-right: -6.5em;
+  z-index: 9;
+}
+
+.work-right.work-right2 {
+  min-height: 160px;
+  float: right;
+}
+
+.work-right.work-right2 h4:before {
+  left: -10px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+}
+
+.work-right.work-right2 h4 {
+  margin-top: 0.2em;
+}
+
+.work-info:hover h5 span.fa {
+  color: #fff;
+}
+
+.work-info p {
+  font-size: 15px;
+  color: #666;
+  line-height: 12px;
+}
+
+.experience h4.title-w3ls {
+  margin-bottom: 20px;
+}
+
+h3.tittle_w3layouts.two,
+p.sub_para.two {
+  text-align: center;
+}
+
+.slogan-area {
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0 20px 0px;
+  position: relative;
+  z-index: 1;
+  clear: both;
+  overflow: hidden;
+  float: left;
+  width: 100%;
+}
+
+.slogan-area h1 {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 42px;
+  margin: 0 0 13px;
+}
+
+.slogan-area p {
+  color: #ffffff;
+  font-size: 14px;
+  margin: 0;
+}
+
+
+
+
+
+.colour-block {
+  background:#823A9C;
+  position: absolute;
+  left: 80px;
+}
+
+
+.skew-cc{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to right bottom, #823A9C 49%, #fff 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+}
+
+
+/*-------------------------*/
+/* SKEW COUNTER CLOCKWISE  */
+/*-------------------------*/
+.skew-c{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to left bottom, #fff 49%, #823A9C 50%);
+}
+
+section {
+  width: 100%;
+  /*   skew adds a 4.76 degree slope and the translateY equation is based on the fact that a 4.76 degree slope has a gradient of 1:12 */
+  -webkit-transform: skew(0, -4.76deg) translateY(calc(50vw/-12));
+      -ms-transform: skew(0, -4.76deg) translateY(calc(50vw/-12));
+          transform: skew(0, -4.76deg) translateY(calc(50vw/-12));
+  /*   And finally we account for the slope to make sure each section can occupy the full window... I added 10vw just to give it a little extra padding */
+  min-height: calc(100vh - (110vw/-12));
+}
+
+section:not(:last-child) *{
+  -webkit-transform: skew(0, 4.76deg) translateY(calc(50vw/12));
+      -ms-transform: skew(0, 4.76deg) translateY(calc(50vw/12));
+          transform: skew(0, 4.76deg) translateY(calc(50vw/12));
+  margin-top: calc(50vw/-12);
+}
+  
+section:last-child {
+  position: relative;
+  -webkit-transform: skew(0);
+      -ms-transform: skew(0);
+          transform: skew(0);
+  margin-top: calc(100vw/-12);
+  padding-top: calc(100vw/12);
+  min-height: 100vh;
+  z-index: -1;
+}
+
+
+
+
+
+/* COLORS AND OTHER STYLES TO ILLUSTRATE SECTIONS */
+section:nth-child(1) {
+  background-color: #2B4141;
+}
+section:nth-child(2) {
+  background-color: #0EB1D2;
+}
+section:nth-child(3) {
+  background-color: #34E4EA;
+}
+section:nth-child(4) {
+  background-color: #3e6f6b;
+}
+section:nth-child(5) {
+  background-color: #b19f63;
+}
+
+section{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+h1{
+  font-family: sans-serif;
+  color: black;
+}
