@@ -12,6 +12,10 @@ body {
   background: var(--bg-color);
 }
 
+#fheight{
+  height:100vh;
+  width: 100%;
+}
 #typewritersection{  
   overflow: hidden;
   height: 95vh;
@@ -114,6 +118,7 @@ body {
 canvas{
   position: relative;
   height:100vh;
+  width:100%;
   top:0;
   left:0;
 }
