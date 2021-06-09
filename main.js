@@ -46,12 +46,12 @@ function addStars(){
 Array(250).fill().forEach(addStars)
 
 // BACKGROUND
-new THREE.TextureLoader().load('assets/space.jpg', (texture)=>{
+new THREE.TextureLoader().load('public/space.jpg', (texture)=>{
   scene.background = texture
 });
 
 // AVATAR
-const chihabCubeTexture = new THREE.TextureLoader().load('assets/avatar.jfif',(texture)=>{
+const chihabCubeTexture = new THREE.TextureLoader().load('public/avatar.jfif',(texture)=>{
 
 })
 const chihabCube = new THREE.Mesh(
@@ -63,8 +63,8 @@ chihabCube.position.x = -10
 scene.add(chihabCube)
 
 // MOON
-const moonTexture = new THREE.TextureLoader().load('assets/moon.jpg',(mt)=>{});
-const normaMapMoon = new THREE.TextureLoader().load('assets/normal.jpg', (nmm)=>{})
+const moonTexture = new THREE.TextureLoader().load('public/moon.jpg',(mt)=>{});
+const normaMapMoon = new THREE.TextureLoader().load('public/normal.jpg', (nmm)=>{})
 const moon = new THREE.Mesh(new THREE.SphereGeometry(3,32,32),new THREE.MeshStandardMaterial({ map : moonTexture, normalMap:normaMapMoon}))
 scene.add(moon)
 
